@@ -33,9 +33,31 @@
 // 1 => true; 0 => false;
 // "" => false; "p" => true;
 
-let someNumber = 33
+// let someNumber = 33
 
-let stringNumber = String(someNumber)
+// let stringNumber = String(someNumber)
 
-console.log(typeof(stringNumber))
-console.log(stringNumber)
+// console.log(typeof(stringNumber))
+// console.log(stringNumber)
+
+// ****************** Operations **********************
+
+// let value = 3
+// let negValue = -value
+// console.log(negValue)
+
+// let str1 ="hello"
+// let str2 = " Dileep"
+
+// let str3  = str1 + str2
+// console.log(str3)
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+let gameCounter = 100
+let s = ++gameCounter;
+console.log(s)
+let t = gameCounter++
+console.log(t)
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
