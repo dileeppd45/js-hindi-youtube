@@ -8,7 +8,7 @@
 ## project 1
 
 ```javascript
-console.log("dileep")
+console.log("dileep");
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
